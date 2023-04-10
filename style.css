@@ -23,7 +23,7 @@ h2 {
 p {font-size: 1.5rem}
 img {width: 100px}
 
-.choices {
+.choices > div {
     display: inline-block;
     margin: 0 1rem;
     transition: all 0.4s ease-in-out;
