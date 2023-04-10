@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Pierre,Feuille,Ciseaux</title>
 </head>
 <body>
     <h1>Pierre Fauille Ciseaux</h1>
+
+   <div class="choices">
+    <div class="paper"><img src="paper.png" alt="Papier"></div>
+    <div class="rock"><img src="rock.png" alt="Rock"></div>
+    <div class="scissors"><img src="scissors.png" alt="Scissors"></div>
+   </div>
+
+   <h2 id="gameStatus">Séléctionnez votre arme !</h2>
+   <p id="gameScore">Me: 0 | Co : 0</p>
+
+   <script src="main.js"></script>
 </body>
 </html>
