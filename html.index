@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website HTML CSS uniquement</title>
     <link rel="stylesheet" href="style.css">
-    <title>Pierre,Feuille,Ciseaux</title>
 </head>
 <body>
-    <h1>Pierre Fauille Ciseaux</h1>
+    
+    <header class="header">
+        <a href="#" class="logo">Valentin.</a>
 
-   <div class="choices">
-    <div class="paper"><img src="paper.png" alt="Papier"></div>
-    <div class="rock"><img src="rock.png" alt="Rock"></div>
-    <div class="scissors"><img src="scissors.png" alt="Scissors"></div>
-   </div>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">A propos</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
 
-   <h2 id="gameStatus">Séléctionnez votre arme !</h2>
-   <p id="gameScore">Me: 0 | Co : 0</p>
-
-   <script src="main.js"></script>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Salut, je m'appelle Valentin Gregorio</h1>
+            <h3>Fronten Developer</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque ullam earum voluptatibus animi consectetur odio maxime exercitationem! Doloribus possimus deleniti officia? Laboriosam temporibus porro, eius repellat quaerat iste natus perspiciatis?</p>
+            <div class="btn-box">
+                <a href="#">Me cacher</a>
+                <a href="#">Parlons</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
